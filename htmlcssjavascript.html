@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="languagepages.css"></link>
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        
+        <script>
+           function opensidenav()
+            {
+                document.getElementById("sidenav").style.width="40%";
+            }
+            function closesidenav()
+            {
+                document.getElementById("sidenav").style.width="0%";
+            }
+            
+        </script>
+    </head>
+    <body>
+        <div class="topnav">
+            <ul>
+                <li><a href="">FEEDBACK</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="index.html">HOME</a></li>
+            </ul>
+        </div>
+        <br>  <br>  <br>
+        <div class="container">
+            <div class="hamburgericon">
+                <a onclick="opensidenav()"><hr><hr><hr></a>
+            </div>
+        </div>
+        <br><br> <br><br>
+        
+        <div class="sidenav" id="sidenav" >
+            <a class="closebtn" onclick="closesidenav()">&times;</a>
+            <div class="overlay-content" onclick="closesidenav()">
+                <a href="" target="contentpage" >HELLO WORLD</a>
+                <a href="" >ODD OR EVEN</a>
+                <a href="" >ARITHMETIC OPERATION</a>
+                <a href="" >ADD TWO STRINGS</a>
+                <a href="" >HELLO WORLD</a>
+                <a href="" >ODD OR EVEN</a>
+                <a href="" >ARITHMETIC OPERATION</a>
+                <a href="" >ADD TWO STRINGS</a>
+                <a href="" >HELLO WORLD</a>
+                <a href="" >ODD OR EVEN</a>
+                <a href="" >ARITHMETIC OPERATION</a>
+                <a href="" >ADD TWO STRINGS</a>
+                <a href="" >HELLO WORLD</a>
+                <a href="" >ODD OR EVEN</a>
+                <a href="" >ARITHMETIC OPERATION</a>
+                <a href="" >ADD TWO STRINGS</a>
+                <a href="" >HELLO WORLD</a>
+                <a href="" >ODD OR EVEN</a>
+                <a href="" >ARITHMETIC OPERATION</a>
+                <a href="" >ADD TWO STRINGS</a>
+            </div> 
+        </div>
+    
+
+        <div class="contentpage">
+            <iframe name="contentpage" class="frame"></iframe>
+        </div>
+    </body>
+</html>

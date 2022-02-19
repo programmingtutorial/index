@@ -1,7 +1,7 @@
 body
 {
     background-color: rgba(0, 0, 0, 0.801);
-    font-size: 40px;
+    font-size: 30px;
 }
 /*-------------home page top navigation------------------*/
 .topnav
@@ -74,18 +74,7 @@ body
 #html 
 {
     background-image: url(images/htmlbg.jpeg);
-}
-#css 
-{
-    background-image: url(images/cssbg1.jpg);
-}
-#javascript 
-{
-    background-image: url(images/javascriptbg1.jpg);
-}
-#php 
-{
-    background-image: url(images/phpbg2.jpg);
+
 }
 /*----------------footer details---------------------*/
 .bottom
