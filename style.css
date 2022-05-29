@@ -19,12 +19,14 @@ body
 .hambtn
 {
     float: right;
-    margin-left: 240px;
+    margin-left: 250px;
     margin-top: 25px;
+    color: wheat;
 }
 .hambtn a hr
 {
     margin-top: 5px;
+    color: wheat;
     padding: 1px;
     width: 20px;
 }
@@ -43,10 +45,14 @@ body
     top:30%;
     background-color: #120200;
 }
-.sidenav a
+.sidenav ul li a
 {
     color: aliceblue;
-    text-decoration: none;    
+    text-decoration: none; 
+    border: 2px solid wheat;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 21px;
 }
 .sidenav ul
 {
@@ -55,7 +61,12 @@ body
 }
 .sidenav li
 {
-    padding: 10px;
+    padding: 20px 10px 30px;
+}
+.sidenav a
+{
+    color: aliceblue;
+    text-decoration: none;
 }
 /*-----------languagebar---------------*/
 .languagebar ul
@@ -84,7 +95,7 @@ body
 }
 #java
 {
-    background-color: rgb(117, 165, 69);
+    background-color: rgb(137, 211, 64);
 }
 #python
 {
@@ -100,7 +111,7 @@ body
 }
 #android
 {
-    background-color: rgb(104, 235, 169);
+    background-color: rgb(50, 223, 136);
 }
 #htmlcss
 {
@@ -109,6 +120,14 @@ body
 #javascript
 {
     background-color: rgb(202, 224, 72);
+}
+#os
+{
+    background-color: rgb(214, 170, 170);
+}
+#se
+{
+    background-color: rgb(151, 70, 228);
 }
 /*-----------last page---------------*/
 .last
