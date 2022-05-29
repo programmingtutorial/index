@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="logos/tab.png" type="image/icon type"></link>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Programming Tutorial,Java,Python,C++,C,Android development">
+    <meta name="author" content="harish">
+    <meta name="description" content="Free Web tutorials">
+    <title>Programming tutorial</title>
+
+    <script>
+        function opensidenav()
+        {
+           var v=document.getElementById("sidenav");
+           v.style.width="50%";
+           v.style.visibility="visible";
+        }
+        function closesidenav()
+        {
+           var v=document.getElementById("sidenav");
+           v.style.width="0%";
+           v.style.visibility="hidden";
+        }
+    </script>
+</head>
+<body>
+    
+    <div class="topnav">
+        <div class="logo">
+            <img src="logos/tab.png"  alt="logo" width="77" height="77">
+        </div>
+        <div class="hambtn" onclick="opensidenav()">
+            <a href="#"><hr><hr><hr></a>
+        </div>
+    </div>
+
+    <div class="sidenav" id="sidenav">
+        <br>
+        <a href="#" onclick="closesidenav()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9932;</a>
+            <ul>
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="aboutus.html">About Us</a> </li>
+                <li><a href="contactus.html">Contact Us</a> </li>
+            </ul>
+    </div>
+
+<br>
+
+    <div class="languagebar">
+        
+        <ul>
+            <li id="java"><h2>JAVA</h2> <br> <a href="java/java.html">learn</a></li>
+        </ul>
+        <ul>
+            <li id="python"><h2>PYTHON</h2> <br> <a href="">learn</a></li>
+        </ul>
+        <ul>
+            <li id="c"><h2>C</h2> <br> <a href="">learn</a></li>
+        </ul>
+        <ul>
+            <li id="cpp"><h2>C++</h2> <br> <a href="">learn</a></li>
+        </ul>
+        <ul>
+            <li id="android"><h2>ANDROID</h2> <br> <a href="">learn</a></li>
+        </ul>
+        <ul>
+            <li id="htmlcss"><h2>HTML / CSS</h2> <br> <a href="">learn</a></li>
+        </ul>
+        <ul>
+            <li id="javascript"><h2>JAVASCRIPT</h2> <br> <a href="">learn</a></li>
+        </ul>
+        <ul>
+            <li id="javascript"><h2>OPERATING SYSTEM</h2> <br> <a href="operating_system/os.html">learn</a></li>
+        </ul>
+        <ul>
+            <li id="javascript"><h2>SOFTWARE ENGINEERING</h2> <br> <a href="software_engineering/se.html">learn</a></li>
+        </ul>
+    </div>
+
+    <div class="last">
+        
+    </div>
+
+</body>
+</html>

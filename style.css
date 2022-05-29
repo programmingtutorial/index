@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+}
+body
+{
+    background-color: #15202b;
+}
+.logo
+{
+    cursor: pointer;
+}
+.topnav
+{
+    background-color:#120200;
+    width: 100%;
+    display: flex;
+}
+.hambtn
+{
+    float: right;
+    margin-left: 240px;
+    margin-top: 25px;
+}
+.hambtn a hr
+{
+    margin-top: 5px;
+    padding: 1px;
+    width: 20px;
+}
+/*---------------side bar----------------*/
+.sidenav
+{
+    overflow-x: hidden;
+    position: absolute;
+    border: 2px solid skyblue;
+    border-radius: 25px;
+    width: 0%;
+    visibility: hidden;
+    transition: 0.75s;
+    float: right;
+    right: 20%;
+    top:30%;
+    background-color: #120200;
+}
+.sidenav a
+{
+    color: aliceblue;
+    text-decoration: none;    
+}
+.sidenav ul
+{
+    list-style-type: none;
+    padding: 10px;
+}
+.sidenav li
+{
+    padding: 10px;
+}
+/*-----------languagebar---------------*/
+.languagebar ul
+{
+    list-style-type: none; 
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Gluten', cursive;
+    
+}
+.languagebar li
+{
+    border: 2px solid whitesmoke;
+    border-radius: 20px 35px;
+    padding: 30px;
+}
+.languagebar li a
+{
+    color: black;
+    background-color: aliceblue;
+    border: 3px solid rgb(255, 0, 0);
+    padding: 5px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+#java
+{
+    background-color: rgb(117, 165, 69);
+}
+#python
+{
+    background-color: rgb(66, 190, 122);
+}
+#c
+{
+    background-color: rgb(206, 204, 77);
+}
+#cpp
+{
+    background-color: rgb(46, 125, 161);
+}
+#android
+{
+    background-color: rgb(104, 235, 169);
+}
+#htmlcss
+{
+    background-color: rgb(140, 221, 147);
+}
+#javascript
+{
+    background-color: rgb(202, 224, 72);
+}
+/*-----------last page---------------*/
+.last
+{
+    width: 100%;
+    height: 150px;
+    background-color:#222221 ;
+}
+/*---------------under construction------------------*/
+.underconstruction
+{
+    margin-top: 120px;
+}
