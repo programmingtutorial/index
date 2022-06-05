@@ -75,8 +75,7 @@ body
     padding: 20px;
     text-align: center;
     color: black;
-    font-family: 'Gluten', cursive;
-    
+    font-family: 'Kdam Thmor Pro', sans-serif;
 }
 .languagebar li
 {
@@ -120,14 +119,6 @@ body
 #javascript
 {
     background-color: rgb(202, 224, 72);
-}
-#os
-{
-    background-color: rgb(214, 170, 170);
-}
-#se
-{
-    background-color: rgb(151, 70, 228);
 }
 /*-----------last page---------------*/
 .last

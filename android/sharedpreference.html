@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *
+        {
+            margin: 0;
+            background-color: #15202b;
+        }
+        .code
+        {
+            border: 3px solid rgb(231, 135, 124);
+            border-radius: 25px;
+            padding: 10px 10px 10px 10px;
+            color: wheat;
+            margin-top: 50px;
+            font-size: 15px;
+            background-color: black;
+            margin-left: auto;
+        }
+        table,tr,td,code
+        {
+            background-color: black;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML,CSS,JavaScript,Programming Tutorial,Java,Python,C++,C,Android development">
+    <meta name="author" content="harish">
+    <meta name="description" content="Free Web tutorials">
+    <title>java tutorial</title>
+    
+</head>
+<body>
+
+   
+    <div class="code">
+        <table>
+            <tr>
+                <td><code> package com.example.sharedpreference;</code></td>
+            </tr>
+            <tr>
+                <td><code>import androidx.appcompat.app.AppCompatActivity;</td>
+            </tr>
+            <tr>
+                <td><code>import android.content.Context;</td>
+            </tr>
+            <tr>
+                <td><code>import android.content.SharedPreferences;
+                    </td>
+            </tr>
+            <tr>
+                <td><code>import android.os.Bundle;</td>
+            </tr>
+            <tr>
+                <td><code>import android.view.View;</td>
+            </tr>
+            <tr>
+                <td><code>import android.widget.EditText;</td>
+            </tr>
+            <tr>
+                <td><code>import android.widget.Toast;</td>
+            </tr>
+            <tr>
+                <td><code>public class MainActivity extends AppCompatActivity</td>
+            </tr>
+            <tr>
+                <td><code>{</td>
+            </tr>
+            <tr>
+                <td><code>protected void onCreate(Bundle s)</td>
+            </tr>
+            <tr>
+                <td><code>{</td>
+            </tr>
+            <tr>
+                <td><code>super.onCreate(s);</td>
+            </tr>
+            <tr>
+                <td><code>setContentView(R.layout.activity_main);</td>
+            </tr>
+            <tr>
+                <td><code>t1=findViewById(R.id.t1);</td>
+            </tr>
+            <tr>
+                <td><code>t2=findViewById(R.id.t2);</td>
+            </tr>
+            <tr>
+                <td><code>}</td>
+            </tr>
+            <tr>
+                <td><code>EditText t1,t2;</td>
+            </tr>
+            <tr>
+                <td><code>public void f1(View vv)</td>
+            </tr>
+            <tr>
+                <td><code>{</td>
+            </tr>
+            <tr>
+                <td><code>String na=t1.getText()+"";</td>
+            </tr>
+            <tr>
+                <td><code>String per=t2.getText()+"";</td>
+            </tr>
+            <tr>
+        <td><code>SharedPreferences sh = getPreferences(Context.MODE_PRIVATE);</td>
+            </tr>
+            <tr>
+                <td><code>SharedPreferences.Editor ed = sh.edit();</td>
+            </tr>
+            <tr>
+                <td><code>ed.putString("name",na);</td>
+            </tr>
+            <tr>
+                <td><code>ed.putString("percentage",per);</td>
+            </tr>  
+            <tr>
+                <td><code>ed.commit();</td>
+            </tr>    
+            <tr>
+                <td><code>}</td>
+            </tr>  
+            <tr>
+                <td><code>public void f2(View vv)</td>
+            </tr>  
+            <tr>
+                <td> <code>{</td>
+            </tr> 
+            <tr>
+                <td><code>SharedPreferences pref = getPreferences(Context.MODE_PRIVATE);</td>
+            </tr> 
+            <tr>
+                <td><code>String n1=pref.getString("name","null");</td>
+            </tr> 
+            <tr>
+                <td><code>String p1=pref.getString("percentage", "null");</td>
+            </tr> 
+            <tr>
+                <td><code>Toast.makeText(this, "OP"+n1 +"" +p1, Toast.LENGTH_SHORT).show();</td>
+            </tr> 
+            <tr>
+                <td><code>}</td>
+            </tr> 
+            <tr>
+                <td><code>}</td>
+            </tr>            
+        </table>
+    </div>
+</body>
+</html>
