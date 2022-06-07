@@ -35,10 +35,8 @@ body
 {
     overflow-x: hidden;
     position: absolute;
-    border: 2px solid skyblue;
     border-radius: 25px;
     width: 0%;
-    visibility: hidden;
     transition: 0.75s;
     float: right;
     right: 20%;

@@ -1,0 +1,52 @@
+.package
+{
+    color: #660e7a;
+}
+.import
+{
+    color: #a51a1a;
+}
+.publicclass
+{
+    color: rgb(228,90,90);
+}
+.classname
+{
+    color: #74b3f1;
+}
+.keywords
+{
+    color: #660e7a;
+}
+.bc
+{
+    color: #f92672;
+}
+.variable
+{
+    color: #ffee00;
+}
+.bm
+{
+    color: #f1b02d;
+}
+.parameter
+{
+    color: #c5a5c5;
+}
+.object
+{
+    color: #87c58b  ;
+}
+.function
+{
+    color: rgb(231, 135, 124);
+}
+.specifierdatatype
+{
+    color: #5a899e;
+}
+.datatype
+{
+    color: #66d9ef ;
+}

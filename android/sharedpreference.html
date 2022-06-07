@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <style>
         *
         {
@@ -38,107 +39,108 @@
     <div class="code">
         <table>
             <tr>
-                <td><code> package com.example.sharedpreference;</code></td>
+                <td><code class="package"> package </code><code> com.example.sharedpreference;</code></td>
             </tr>
             <tr>
-                <td><code>import androidx.appcompat.app.AppCompatActivity;</td>
+                <td><code class="import">import</code><code> androidx.appcompat.app.AppCompatActivity;</code></td>
             </tr>
             <tr>
-                <td><code>import android.content.Context;</td>
+                <td><code class="import">import</code><code>  android.content.Context;</code></td>
             </tr>
             <tr>
-                <td><code>import android.content.SharedPreferences;
+                <td><code class="import">import </code><code> android.content.SharedPreferences;
                     </td>
             </tr>
             <tr>
-                <td><code>import android.os.Bundle;</td>
+                <td><code class="import">import</code> <code>  android.os.Bundle;</td>
             </tr>
             <tr>
-                <td><code>import android.view.View;</td>
+                <td><code class="import">import</code> <code>  android.view.View;</td>
             </tr>
             <tr>
-                <td><code>import android.widget.EditText;</td>
+                <td><code class="import">import</code> <code>  android.widget.EditText;</td>
             </tr>
             <tr>
-                <td><code>import android.widget.Toast;</td>
+                <td><code class="import">import</code> <code>  android.widget.Toast;</td>
             </tr>
             <tr>
-                <td><code>public class MainActivity extends AppCompatActivity</td>
-            </tr>
-            <tr>
-                <td><code>{</td>
-            </tr>
-            <tr>
-                <td><code>protected void onCreate(Bundle s)</td>
+                <td><code class="publicclass">public class <code class="classname"> MainActivity </code> <code class="keywords"> extends </code>
+                    <code class="bc"> AppCompatActivity</code></td>
             </tr>
             <tr>
                 <td><code>{</td>
             </tr>
             <tr>
-                <td><code>super.onCreate(s);</td>
+                <td><code class="specifierdatatype">protected void </code> <code class="bm"> onCreate(Bundle s)</code></td>
             </tr>
             <tr>
-                <td><code>setContentView(R.layout.activity_main);</td>
+                <td><code>{</td>
             </tr>
             <tr>
-                <td><code>t1=findViewById(R.id.t1);</td>
+                <td><code class="keywords">super</code>. <code class="bm"> onCreate(s);</code></td>
             </tr>
             <tr>
-                <td><code>t2=findViewById(R.id.t2);</td>
+                <td><code class="bm">setContentView</code><code class="parameter">(R.layout.activity_main)</code>;</td>
+            </tr>
+            <tr>
+                <td><code class="variable">t1=<code class="bm">findViewById<code class="parameter">(R.id.t1);</td>
+            </tr>
+            <tr>
+                <td><code class="variable">t2=<code class="bm">findViewById<code class="parameter">(R.id.t2);</td>
             </tr>
             <tr>
                 <td><code>}</td>
             </tr>
             <tr>
-                <td><code>EditText t1,t2;</td>
+                <td><code class="bc">EditText <code class="variable"> t1,t2;</td>
             </tr>
             <tr>
-                <td><code>public void f1(View vv)</td>
+                <td><code class="specifierdatatype">public void <code class="function"> f1 <code class="parameter">(View vv)</td>
             </tr>
             <tr>
                 <td><code>{</td>
             </tr>
             <tr>
-                <td><code>String na=t1.getText()+"";</td>
+                <td><code class="datatype">String <code class="variable"> na=t1. <code class="bm">getText()+"";</td>
             </tr>
             <tr>
-                <td><code>String per=t2.getText()+"";</td>
+                <td><code class="datatype">String <code class="variable"> per=t2.<code class="bm">getText()+"";</td>
             </tr>
             <tr>
-        <td><code>SharedPreferences sh = getPreferences(Context.MODE_PRIVATE);</td>
+        <td><code class="bc">SharedPreferences <code class="object">sh = <code class="bm">getPreferences(Context.MODE_PRIVATE);</td>
             </tr>
             <tr>
-                <td><code>SharedPreferences.Editor ed = sh.edit();</td>
+                <td><code class="bc">SharedPreferences.Editor <code class="object"> ed = <code class="object"> sh. <code class="bm">edit();</td>
             </tr>
             <tr>
-                <td><code>ed.putString("name",na);</td>
+                <td><code class="object">ed. <code class="bm">putString<code class="parameter">("name",na);</td>
             </tr>
             <tr>
-                <td><code>ed.putString("percentage",per);</td>
+                <td><code class="object">ed.<code class="parameter">putString<code class="parameter">("percentage",per);</td>
             </tr>  
             <tr>
-                <td><code>ed.commit();</td>
+                <td><code class="object">ed.<code class="bm">commit();</td>
             </tr>    
             <tr>
                 <td><code>}</td>
             </tr>  
             <tr>
-                <td><code>public void f2(View vv)</td>
+                <td><code class="specifierdatatype">public void <code class="function"> f2<code class="parameter">(View vv)</td>
             </tr>  
             <tr>
                 <td> <code>{</td>
             </tr> 
             <tr>
-                <td><code>SharedPreferences pref = getPreferences(Context.MODE_PRIVATE);</td>
+                <td><code class="bc">SharedPreferences <code class="object"> pref = <code class="bm">getPreferences<code class="parameter">(Context.MODE_PRIVATE);</td>
             </tr> 
             <tr>
-                <td><code>String n1=pref.getString("name","null");</td>
+                <td><code class="datatype">String <code class="variable"> n1=<code class="object">pref.<code class="bm">getString("name","null");</td>
             </tr> 
             <tr>
-                <td><code>String p1=pref.getString("percentage", "null");</td>
+                <td><code class="datatype">String <code class="variable">p1=<code class="object">pref.<code class="bm">getString<code class="parameter">("percentage", "null");</td>
             </tr> 
             <tr>
-                <td><code>Toast.makeText(this, "OP"+n1 +"" +p1, Toast.LENGTH_SHORT).show();</td>
+                <td><code class="bc">Toast.<code class="bm">makeText<code class="parameter">(<code class="keywords">this</code>, "OP"+n1 +"" +p1, <code class="bc">Toast.LENGTH_SHORT).<code class="bm">show();</td>
             </tr> 
             <tr>
                 <td><code>}</td>

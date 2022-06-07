@@ -40,10 +40,8 @@
             background-color: rgb(54, 50, 50);
             overflow-x: hidden;
             position: absolute;
-            border: 2px solid skyblue;
             border-radius: 25px;
             width: 0%;
-            visibility: hidden;
             transition: 0.75s;
         }
         .sidenav a
@@ -69,13 +67,11 @@
         {
            var v=document.getElementById("sidenav");
            v.style.width="50%";
-           v.style.visibility="visible";
         }
         function closesidenav()
         {
            var v=document.getElementById("sidenav");
            v.style.width="0%";
-           v.style.visibility="hidden";
         }
     </script>
 
@@ -84,8 +80,9 @@
 
     <div style="background-color: black; width: 100%;
     display: flex; height: 80px;">
+
         <div class="hambtn" >
-            <a href="#" onclick="opensidenav()"><hr><hr><hr></a>
+            <a onclick="opensidenav()"><hr><hr><hr></a>
         </div>
 
         <div class="logo">
@@ -100,16 +97,15 @@
         <br>
         <a href="#" onclick="closesidenav()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9932;</a>
             <ul>
-                <li><a href="hello_world_program_in_java.html" target="contentpage">Hello world in java</a> </li>
-                <li><a href="">Java Intro</a> </li>
-                <li><a href="">Java Data Types</a> </li>
-                <li><a href="">Java if...else</a> </li>
-                <li><a href="">Java While loop</a></li>
+                <li><a onclick="closesidenav()" href="hello_world_program_in_java.html" target="contentpage">Hello world in java</a> </li>
+                <li><a onclick="closesidenav()" href="">Java Intro</a> </li>
+                <li><a onclick="closesidenav()" href="">Java Data Types</a> </li>
+                <li><a onclick="closesidenav()" href="">Java if...else</a> </li>
+                <li><a onclick="closesidenav()" href="">Java While loop</a></li>
                 <li><a href="">Java for loop</a></li>
                 <li><a href="">Java do while loop</a></li>
                 <li><a href="">Java Input/Output</a></li>
             </ul>
-    
     </div>
 
     <div class="contentpage">
