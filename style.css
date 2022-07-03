@@ -22,6 +22,7 @@ body
     margin-left: 270px;
     margin-top: 25px;
     color: wheat;
+    cursor: pointer;
 }
 .hambtn a hr
 {
@@ -78,7 +79,7 @@ body
 .languagebar li
 {
     border: 2px solid whitesmoke;
-    border-radius: 20px 35px;
+    border-radius: 25px;
     padding: 30px;
 }
 .languagebar li a

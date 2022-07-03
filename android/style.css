@@ -50,3 +50,32 @@
 {
     color: #66d9ef ;
 }
+*
+{
+    margin: 0;
+    background-color: #15202b;
+}
+.code
+{
+    border: 3px solid rgb(231, 135, 124);
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    color: wheat;
+    margin-top: 50px;
+    font-size: 17px;
+    background-color: black;
+}
+table,tr,td,code
+{
+    background-color: black;
+}
+h2
+{
+    color: wheat;
+    text-align: center;
+}
+p
+{
+    color: rgb(255, 255, 254);
+    font-size: 20px;
+}
