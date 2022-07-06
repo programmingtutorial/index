@@ -1,0 +1,77 @@
+*
+{
+    margin: 0%;
+    background-color: #15202b;
+    background-color: white;
+}
+.frame
+{
+   width: 100%;
+   height: 40em;
+}
+.hambtn
+{
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    cursor: pointer;
+}
+.hambtn a hr
+{
+    margin-top: 8px;
+    padding: 2px;
+    width: 20px;
+    color: wheat;
+}
+.sidenav
+{
+    background-color: rgb(54, 50, 50);
+    overflow-x: hidden;
+    position: absolute;
+    border-radius: 25px;
+    width: 0%;
+    transition: 0.75s;
+}
+.sidenav a
+{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(54, 50, 50);
+}
+.sidenav ul
+{
+    list-style-type: none;
+    background-color: rgb(54, 50, 50);
+    padding: 10px;
+}
+.sidenav li
+{
+    padding: 10px;
+    background-color: rgb(54, 50, 50);
+}
+*
+{
+    margin: 0;
+    background-color: #15202b;
+}
+.content
+{
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+}
+.code
+{
+    border: 2px solid wheat;
+    border-left: 5px solid rgb(231, 135, 124);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-left: auto;
+    color: wheat;
+}

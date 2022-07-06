@@ -1,0 +1,129 @@
+*
+{
+    margin: 0%;
+    background-color: #15202b;
+}
+.hambtn
+{
+    margin-top: 13px;
+    margin-left: 10px;
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    cursor: pointer;
+}
+.hambtn a hr
+{
+    margin-top: 8px;
+    padding: 2px;
+    width: 20px;
+    color: wheat;
+}
+.sidenav
+{
+    background-color: rgb(54, 50, 50);
+    overflow-x: hidden;
+    position: absolute;
+    border-radius: 25px;
+    width: 0%;
+    transition: 0.75s;
+}
+.sidenav a
+{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(54, 50, 50);
+}
+.sidenav ul
+{
+    list-style-type: none;
+    background-color: rgb(54, 50, 50);
+    padding: 10px;
+}
+.sidenav li
+{
+    padding: 10px;
+    background-color: rgb(54, 50, 50);
+}
+iframe
+{
+    width: 100%;
+}
+.package
+{
+    color: #660e7a;
+}
+.import
+{
+    color: #a51a1a;
+}
+.publicclass
+{
+    color: rgb(228,90,90);
+}
+.classname
+{
+    color: #74b3f1;
+}
+.keywords
+{
+    color: #660e7a;
+}
+.bc
+{
+    color: #f92672;
+}
+.variable
+{
+    color: #ffee00;
+}
+.bm
+{
+    color: #f1b02d;
+}
+.parameter
+{
+    color: #c5a5c5;
+}
+.object
+{
+    color: #87c58b  ;
+}
+.function
+{
+    color: rgb(231, 135, 124);
+}
+.specifierdatatype
+{
+    color: #5a899e;
+}
+.datatype
+{
+    color: #66d9ef ;
+}
+.code
+{
+    border: 2px solid wheat;
+    border-left: 5px solid rgb(231, 135, 124);
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    color: wheat;
+    margin-top: 50px;
+    font-size: 17px;
+    line-height: 25px;
+    background-color: #000000;
+}
+table,tr,td,code
+{
+     background-color: #000000;
+}
+h2
+{
+    color: wheat;
+    text-align: center;
+}
+p
+{
+    color: rgb(255, 255, 254);
+    font-size: 20px;
+}

@@ -67,6 +67,15 @@ body
     color: aliceblue;
     text-decoration: none;
 }
+/*-----------circle---------------*/
+.circle
+{
+    background-color: #0dba4b;
+    border-radius: 120px 120px;
+    width: 125px;
+    height: 125px;
+    position: relative;
+}
 /*-----------languagebar---------------*/
 .languagebar ul
 {
@@ -78,7 +87,6 @@ body
 }
 .languagebar li
 {
-    border: 2px solid whitesmoke;
     border-radius: 25px;
     padding: 30px;
 }
