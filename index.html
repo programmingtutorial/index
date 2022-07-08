@@ -10,7 +10,6 @@
     <meta name="author" content="harish">
     <meta name="description" content="Free Web tutorials">
     <title>Programming tutorial</title>
-
     <script>
         function opensidenav()
         {
@@ -22,14 +21,21 @@
            var v=document.getElementById("sidenav");
            v.style.width="0%";
         }
+        function up()
+        {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
     </script>
 </head>
 <body>
     
-   <div class="topnav">
-    <img src="logos/tab.png" width="75" alt="">
+   <div class="topnav" id="topnav">
+    <img src="logos/tab.png" width="80" alt="">
     <i onclick="opensidenav()"><hr><hr><hr></i>
    </div>
+
+   <div class="up" onclick="up()">&#8593;</div>
 
     <div class="sidenav" id="sidenav">
         <br>
@@ -45,7 +51,7 @@
 
     <div class="languagebar">  
         <ul id="java">
-            <li ><h2>JAVA</h2> <br> <a href="java/java.html">learn</a></li>
+            <li><h2>JAVA</h2> <br> <a href="java/java.html">learn</a></li>
         </ul>
         <ul id="python">
             <li><h2>PYTHON</h2> <br> <a href="">learn</a></li>
@@ -54,7 +60,7 @@
             <li><h2>C</h2> <br> <a href="">learn</a></li>
         </ul>
         <ul id="cpp">
-            <li ><h2>C++</h2> <br> <a href="">learn</a></li>
+            <li><h2>C++</h2> <br> <a href="">learn</a></li>
         </ul>
         <ul id="android">
             <li><h2>ANDROID</h2> <br> <a href="android/android.html">learn</a></li>
@@ -65,10 +71,6 @@
         <ul id="javascript">
             <li><h2>JAVASCRIPT</h2> <br> <a href="">learn</a></li>
         </ul>
-    </div>
-
-    <div class="last">
-        
     </div>
 
 </body>
