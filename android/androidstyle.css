@@ -3,21 +3,29 @@
     margin: 0%;
     background-color: #15202b;
 }
-.hambtn
+.topnav
 {
-    margin-top: 13px;
-    margin-left: 10px;
-    width: 100%;
     background-color: black;
-    height: 60px;
-    cursor: pointer;
+    width: 100%;
+    height: 80px;
 }
-.hambtn a hr
+.topnav img
 {
-    margin-top: 8px;
-    padding: 2px;
+    float: left;
+}
+.topnav i
+{
+    float: right;
+    cursor: pointer;
+    margin: 15px 20px 0 0;
+}
+.topnav i hr
+{
     width: 20px;
+    height: 3px;
+    margin-top: 5px;
     color: wheat;
+    padding: 1px;
 }
 .sidenav
 {
@@ -49,13 +57,28 @@ iframe
 {
     width: 100%;
 }
+.up
+{
+    font-size: 35px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background-color: rgb(14, 238, 14);
+    color: black;
+    text-align: center;
+    margin-top: 525px;
+    position: fixed;
+    right: 0;
+    border-radius: 15px;
+}
 .package
 {
-    color: #660e7a;
+    color: #cc3dec;
 }
 .import
 {
-    color: #a51a1a;
+    color: #e02e2e;
 }
 .publicclass
 {
@@ -67,7 +90,7 @@ iframe
 }
 .keywords
 {
-    color: #660e7a;
+    color: #cf2ff3;
 }
 .bc
 {
@@ -83,11 +106,11 @@ iframe
 }
 .parameter
 {
-    color: #c5a5c5;
+    color: #ffffff;
 }
 .object
 {
-    color: #87c58b  ;
+    color: #4ddf57  ;
 }
 .function
 {
@@ -95,11 +118,17 @@ iframe
 }
 .specifierdatatype
 {
-    color: #5a899e;
+    color: #14acf3;
 }
 .datatype
 {
-    color: #66d9ef ;
+    color: #1dc8eb ;
+}
+/*--------example programs---------*/
+.example
+{
+    color: #ffffff;
+    font-weight: bolder;
 }
 .code
 {
@@ -107,23 +136,23 @@ iframe
     border-left: 5px solid rgb(231, 135, 124);
     border-radius: 10px;
     padding: 10px 10px 10px 10px;
-    color: wheat;
-    margin-top: 50px;
+    color: rgb(240, 236, 228);
+    margin-top: 30px;
     font-size: 17px;
     line-height: 25px;
-    background-color: #000000;
+    background-color: #212121;
 }
 table,tr,td,code
 {
-     background-color: #000000;
+     background-color: #212121;
 }
 h2
 {
-    color: wheat;
+    color: #ffffff;
     text-align: center;
 }
 p
 {
-    color: rgb(255, 255, 254);
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 17px;
 }

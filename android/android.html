@@ -8,7 +8,7 @@
     <meta name="author" content="harish">
     <meta name="description" content="Free Web tutorials">
     <link rel="stylesheet" type="text/css" href="androidstyle.css">
-    <title>Java tutorial</title>
+    <title>Android tutorial</title>
     <script>
         function opensidenav()
         {
@@ -20,20 +20,21 @@
            var v=document.getElementById("sidenav");
            v.style.width="0%";
         }
+        function up()
+        {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
     </script>
 
 </head>
 <body>
 
-    <div style="background-color: black; width: 100%;
-    display: flex; height: 80px;" >
-        <div class="hambtn" >
-            <a href="#" onclick="opensidenav()"><hr><hr><hr></a>
-        </div>
+    <button class="up" onclick="up()">&#8593;</button>
 
-        <div class="logo">
-           <a href="../index.html"> <img src="../logos/tab.png"  alt="logo" width="80" height="80"></a>
-        </div>
+    <div class="topnav">
+        <a href="../index.html"> <img src="../logos/tab.png"  alt="logo" width="80" height="80"></a>
+        <i onclick="opensidenav()"><hr><hr><hr></i>
     </div>
 
 <br>
@@ -51,7 +52,7 @@
     </div>
 
     <div class="contentpages">
-        <iframe src="" height="1000" name="contentpage" frameborder="0" class="frame"></iframe>
+        <iframe src="sharedpreference.html" height="1000" name="contentpage" frameborder="0" class="frame"></iframe>
     </div>
 
 </body>

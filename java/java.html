@@ -20,10 +20,17 @@
            var v=document.getElementById("sidenav");
            v.style.width="0%";
         }
+        function up()
+        {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
     </script>
 
 </head>
 <body>
+
+    <button class="up" onclick="up()">&#8593;</button>
 
     <div class="topnav">
         <a href="../index.html"> <img src="../logos/tab.png"  alt="logo" width="80" height="80"></a>

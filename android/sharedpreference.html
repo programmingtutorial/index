@@ -8,7 +8,7 @@
     <meta name="keywords" content="HTML,CSS,JavaScript,Programming Tutorial,Java,Python,C++,C,Android development">
     <meta name="author" content="harish">
     <meta name="description" content="Free Web tutorials">
-    <title>java tutorial</title>
+    <title>SharedPreference</title>
     
 </head>
 <body>
@@ -25,6 +25,10 @@
         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#10033; In order to use shared preferences, you have to call a method getSharedPreferences() that returns a SharedPreference instance pointing to the file that contains the values of preferences.</p>
     </div>
    
+    <br>
+    
+    <div class="example">
+        <h3>Sample program</h3>
     <div class="code">
         <table>
             <tr>
@@ -90,7 +94,7 @@
                 <td><code>{</td>
             </tr>
             <tr>
-                <td><code class="datatype">String <code class="variable"> na=t1. <code class="bm">getText()+"";</td>
+                <td><code class="datatype">String <code class="variable"> na=t1.<code class="bm">getText()+"";</td>
             </tr>
             <tr>
                 <td><code class="datatype">String <code class="variable"> per=t2.<code class="bm">getText()+"";</td>
@@ -102,10 +106,10 @@
                 <td><code class="bc">SharedPreferences.Editor <code class="object"> ed = <code class="object"> sh. <code class="bm">edit();</td>
             </tr>
             <tr>
-                <td><code class="object">ed. <code class="bm">putString<code class="parameter">("name",na);</td>
+                <td><code class="object">ed.<code class="bm">putString<code class="parameter">("name",na);</td>
             </tr>
             <tr>
-                <td><code class="object">ed.<code class="parameter">putString<code class="parameter">("percentage",per);</td>
+                <td><code class="object">ed.<code class="bm">putString<code class="parameter">("percentage",per);</td>
             </tr>  
             <tr>
                 <td><code class="object">ed.<code class="bm">commit();</td>
@@ -139,5 +143,6 @@
             </tr>            
         </table>
     </div>
+</div>
 </body>
 </html>
